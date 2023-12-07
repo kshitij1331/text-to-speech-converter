@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text-to-Speech Converter</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Text-to-Speech Converter</h1>
+    </header>
+    <main>
+        <div class="text-input">
+            <textarea id="text-input" placeholder="Enter text..."></textarea>
+        </div>
+        <div class="voice-options">
+            <label for="voice-select">Select Voice:</label>
+            <select id="voice-select"></select>
+        </div>
+        <button id="convert-button">Convert to Speech</button>
+        <audio id="audio-player" controls></audio>
+    </main>
+    <footer>
+        <p>&copy; 2023 Text-to-Speech Converter</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
+
